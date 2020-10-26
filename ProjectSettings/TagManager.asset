@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Coin_tag
   - ground_tag
+  - enemy_tag
+  - start_tag
+  - end_tag
   layers:
   - Default
   - TransparentFX

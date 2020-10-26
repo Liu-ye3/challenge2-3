@@ -2,16 +2,21 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - camera_follow
+    - enemy_move
     - esc
     - player_script
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -51,6 +56,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -72,7 +81,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14836}
     - Class: 114
-      Script: {instanceID: 15032}
+      Script: {instanceID: 14928}
+    - Class: 114
+      Script: {instanceID: 15034}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -462,7 +473,7 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: 634a9075edefdb793145d0e5713cbbbe
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: player_script
@@ -540,6 +551,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enemy_move
+  - hash:
+      serializedVersion: 2
       Hash: 134322c9293c1896357cce271b819ce4
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -607,5 +624,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/ta850983/Desktop/sound_tut/New Unity Project/builds/New Unity
-    Project.exe
+  playerPath: C:/Users/ta850983/Desktop/sound_tut/tut2/builds/New Unity Project_Data/New
+    Unity Project.exe
